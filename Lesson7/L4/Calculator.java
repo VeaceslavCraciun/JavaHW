@@ -7,19 +7,19 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please, enter first number.");
-        int num1 = input.nextInt();
+        double num1 = input.nextInt();
 
         System.out.println("Please, enter second number.");
-        int num2 = input.nextInt();
+        double num2 = input.nextDouble();
 
         System.out.println("choose the required operation: sum, average, or comparison.");
         String operation = input.next();
 
         switch (operation) {
-            case "sum": int sum = num1 + num2;
+            case "sum": double sum = num1 + num2;
                 System.out.println("Sum is " + sum);
                 break;
-            case "average": int average = (num1 + num2) / 2;
+            case "average": double average = (num1 + num2) / 2;
                 System.out.println("Average is " + average);
                 break;
             case "comparison":
