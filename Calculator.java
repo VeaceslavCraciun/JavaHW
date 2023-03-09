@@ -1,4 +1,4 @@
-package JavaHW.Lesson7.L4;
+package JavaHW;
 
 import java.util.Scanner;
 
